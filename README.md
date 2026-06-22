@@ -182,5 +182,5 @@ dbt build
 
 ## Author
 
-**[Your Name]** — Marketing Analytics | Customer Insights | Product Analytics  
-[LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL) · [Email](mailto:YOUR_EMAIL)
+**[Miaad Nabizadeh]** — Marketing Analytics | Customer Insights | Product Analytics  
+[LinkedIn]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/miaadnabizadeh/))
