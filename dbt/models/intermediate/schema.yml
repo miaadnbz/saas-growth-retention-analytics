@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: int_account_activation
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+  - name: int_account_revenue
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+  - name: int_account_retention
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
