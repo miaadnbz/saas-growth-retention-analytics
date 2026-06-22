@@ -1,0 +1,274 @@
+spend_month,channel,campaign_id,spend
+2024-01-01,Paid Search,PS_Brand,22512.72
+2024-01-01,Paid Search,PS_NonBrand,32818.66
+2024-01-01,Paid Search,PS_Competitor,10030.28
+2024-01-01,Paid Social,SOC_Prospecting,39080.03
+2024-01-01,Paid Social,SOC_Retargeting,17021.21
+2024-01-01,Paid Social,SOC_Video,12170.06
+2024-01-01,Email,EML_Nurture,5993.36
+2024-01-01,Email,EML_Reactivation,3411.98
+2024-01-01,Partner,PART_Consultants,9347.3
+2024-01-01,Partner,PART_Community,7107.88
+2024-01-01,Organic Search,ORG_SEO,9483.95
+2024-01-01,Referral,REF_Customer,7611.27
+2024-01-01,Direct,DIR_None,0.0
+2024-02-01,Paid Search,PS_Brand,17633.76
+2024-02-01,Paid Search,PS_NonBrand,26961.22
+2024-02-01,Paid Search,PS_Competitor,10623.13
+2024-02-01,Paid Social,SOC_Prospecting,28690.07
+2024-02-01,Paid Social,SOC_Retargeting,12752.6
+2024-02-01,Paid Social,SOC_Video,9380.86
+2024-02-01,Email,EML_Nurture,5201.89
+2024-02-01,Email,EML_Reactivation,2877.84
+2024-02-01,Partner,PART_Consultants,9359.23
+2024-02-01,Partner,PART_Community,5957.09
+2024-02-01,Organic Search,ORG_SEO,8933.61
+2024-02-01,Referral,REF_Customer,6943.74
+2024-02-01,Direct,DIR_None,0.0
+2024-03-01,Paid Search,PS_Brand,18009.2
+2024-03-01,Paid Search,PS_NonBrand,28401.35
+2024-03-01,Paid Search,PS_Competitor,8717.1
+2024-03-01,Paid Social,SOC_Prospecting,32548.83
+2024-03-01,Paid Social,SOC_Retargeting,14689.2
+2024-03-01,Paid Social,SOC_Video,10261.6
+2024-03-01,Email,EML_Nurture,4867.87
+2024-03-01,Email,EML_Reactivation,2750.11
+2024-03-01,Partner,PART_Consultants,9009.86
+2024-03-01,Partner,PART_Community,5813.45
+2024-03-01,Organic Search,ORG_SEO,8160.81
+2024-03-01,Referral,REF_Customer,6106.4
+2024-03-01,Direct,DIR_None,0.0
+2024-04-01,Paid Search,PS_Brand,19791.03
+2024-04-01,Paid Search,PS_NonBrand,29528.43
+2024-04-01,Paid Search,PS_Competitor,8407.1
+2024-04-01,Paid Social,SOC_Prospecting,28994.01
+2024-04-01,Paid Social,SOC_Retargeting,12961.31
+2024-04-01,Paid Social,SOC_Video,10709.35
+2024-04-01,Email,EML_Nurture,5681.43
+2024-04-01,Email,EML_Reactivation,2739.8
+2024-04-01,Partner,PART_Consultants,9219.27
+2024-04-01,Partner,PART_Community,5357.28
+2024-04-01,Organic Search,ORG_SEO,8342.52
+2024-04-01,Referral,REF_Customer,5980.88
+2024-04-01,Direct,DIR_None,0.0
+2024-05-01,Paid Search,PS_Brand,18236.76
+2024-05-01,Paid Search,PS_NonBrand,27376.8
+2024-05-01,Paid Search,PS_Competitor,8779.87
+2024-05-01,Paid Social,SOC_Prospecting,35919.89
+2024-05-01,Paid Social,SOC_Retargeting,13579.62
+2024-05-01,Paid Social,SOC_Video,9120.14
+2024-05-01,Email,EML_Nurture,5665.98
+2024-05-01,Email,EML_Reactivation,2904.84
+2024-05-01,Partner,PART_Consultants,8443.82
+2024-05-01,Partner,PART_Community,6649.27
+2024-05-01,Organic Search,ORG_SEO,8714.64
+2024-05-01,Referral,REF_Customer,6099.25
+2024-05-01,Direct,DIR_None,0.0
+2024-06-01,Paid Search,PS_Brand,18186.07
+2024-06-01,Paid Search,PS_NonBrand,23897.7
+2024-06-01,Paid Search,PS_Competitor,8740.53
+2024-06-01,Paid Social,SOC_Prospecting,28276.31
+2024-06-01,Paid Social,SOC_Retargeting,15133.88
+2024-06-01,Paid Social,SOC_Video,9721.74
+2024-06-01,Email,EML_Nurture,5581.97
+2024-06-01,Email,EML_Reactivation,2652.25
+2024-06-01,Partner,PART_Consultants,9024.07
+2024-06-01,Partner,PART_Community,6619.65
+2024-06-01,Organic Search,ORG_SEO,7975.54
+2024-06-01,Referral,REF_Customer,5617.48
+2024-06-01,Direct,DIR_None,0.0
+2024-07-01,Paid Search,PS_Brand,16230.33
+2024-07-01,Paid Search,PS_NonBrand,27814.59
+2024-07-01,Paid Search,PS_Competitor,7201.48
+2024-07-01,Paid Social,SOC_Prospecting,31912.12
+2024-07-01,Paid Social,SOC_Retargeting,13461.37
+2024-07-01,Paid Social,SOC_Video,11194.4
+2024-07-01,Email,EML_Nurture,4981.32
+2024-07-01,Email,EML_Reactivation,3153.73
+2024-07-01,Partner,PART_Consultants,9704.59
+2024-07-01,Partner,PART_Community,5814.1
+2024-07-01,Organic Search,ORG_SEO,8493.16
+2024-07-01,Referral,REF_Customer,5921.09
+2024-07-01,Direct,DIR_None,0.0
+2024-08-01,Paid Search,PS_Brand,17691.24
+2024-08-01,Paid Search,PS_NonBrand,26565.21
+2024-08-01,Paid Search,PS_Competitor,8756.82
+2024-08-01,Paid Social,SOC_Prospecting,31967.86
+2024-08-01,Paid Social,SOC_Retargeting,14922.65
+2024-08-01,Paid Social,SOC_Video,10453.34
+2024-08-01,Email,EML_Nurture,4383.42
+2024-08-01,Email,EML_Reactivation,2867.86
+2024-08-01,Partner,PART_Consultants,9521.85
+2024-08-01,Partner,PART_Community,5464.01
+2024-08-01,Organic Search,ORG_SEO,7590.66
+2024-08-01,Referral,REF_Customer,6327.51
+2024-08-01,Direct,DIR_None,0.0
+2024-09-01,Paid Search,PS_Brand,21335.81
+2024-09-01,Paid Search,PS_NonBrand,31242.06
+2024-09-01,Paid Search,PS_Competitor,10627.98
+2024-09-01,Paid Social,SOC_Prospecting,34023.12
+2024-09-01,Paid Social,SOC_Retargeting,15174.33
+2024-09-01,Paid Social,SOC_Video,11792.76
+2024-09-01,Email,EML_Nurture,5791.35
+2024-09-01,Email,EML_Reactivation,3368.95
+2024-09-01,Partner,PART_Consultants,11195.81
+2024-09-01,Partner,PART_Community,6391.56
+2024-09-01,Organic Search,ORG_SEO,10706.71
+2024-09-01,Referral,REF_Customer,7256.5
+2024-09-01,Direct,DIR_None,0.0
+2024-10-01,Paid Search,PS_Brand,17829.75
+2024-10-01,Paid Search,PS_NonBrand,29790.34
+2024-10-01,Paid Search,PS_Competitor,9291.16
+2024-10-01,Paid Social,SOC_Prospecting,31089.23
+2024-10-01,Paid Social,SOC_Retargeting,14845.64
+2024-10-01,Paid Social,SOC_Video,10339.6
+2024-10-01,Email,EML_Nurture,4726.85
+2024-10-01,Email,EML_Reactivation,2730.51
+2024-10-01,Partner,PART_Consultants,8810.75
+2024-10-01,Partner,PART_Community,7168.64
+2024-10-01,Organic Search,ORG_SEO,8432.45
+2024-10-01,Referral,REF_Customer,5413.46
+2024-10-01,Direct,DIR_None,0.0
+2024-11-01,Paid Search,PS_Brand,19811.07
+2024-11-01,Paid Search,PS_NonBrand,32012.16
+2024-11-01,Paid Search,PS_Competitor,10191.23
+2024-11-01,Paid Social,SOC_Prospecting,36781.51
+2024-11-01,Paid Social,SOC_Retargeting,17033.34
+2024-11-01,Paid Social,SOC_Video,11591.13
+2024-11-01,Email,EML_Nurture,5399.68
+2024-11-01,Email,EML_Reactivation,3369.75
+2024-11-01,Partner,PART_Consultants,10822.9
+2024-11-01,Partner,PART_Community,7613.44
+2024-11-01,Organic Search,ORG_SEO,9590.59
+2024-11-01,Referral,REF_Customer,6785.95
+2024-11-01,Direct,DIR_None,0.0
+2024-12-01,Paid Search,PS_Brand,15439.6
+2024-12-01,Paid Search,PS_NonBrand,26519.42
+2024-12-01,Paid Search,PS_Competitor,9618.51
+2024-12-01,Paid Social,SOC_Prospecting,33971.52
+2024-12-01,Paid Social,SOC_Retargeting,13959.35
+2024-12-01,Paid Social,SOC_Video,9345.65
+2024-12-01,Email,EML_Nurture,4897.39
+2024-12-01,Email,EML_Reactivation,3128.21
+2024-12-01,Partner,PART_Consultants,8749.58
+2024-12-01,Partner,PART_Community,5402.61
+2024-12-01,Organic Search,ORG_SEO,8707.84
+2024-12-01,Referral,REF_Customer,6714.11
+2024-12-01,Direct,DIR_None,0.0
+2025-01-01,Paid Search,PS_Brand,19310.61
+2025-01-01,Paid Search,PS_NonBrand,29297.61
+2025-01-01,Paid Search,PS_Competitor,9924.26
+2025-01-01,Paid Social,SOC_Prospecting,38269.42
+2025-01-01,Paid Social,SOC_Retargeting,16382.45
+2025-01-01,Paid Social,SOC_Video,11012.43
+2025-01-01,Email,EML_Nurture,5962.16
+2025-01-01,Email,EML_Reactivation,3473.18
+2025-01-01,Partner,PART_Consultants,11104.7
+2025-01-01,Partner,PART_Community,7123.6
+2025-01-01,Organic Search,ORG_SEO,10450.92
+2025-01-01,Referral,REF_Customer,7384.47
+2025-01-01,Direct,DIR_None,0.0
+2025-02-01,Paid Search,PS_Brand,16719.38
+2025-02-01,Paid Search,PS_NonBrand,26132.39
+2025-02-01,Paid Search,PS_Competitor,9002.27
+2025-02-01,Paid Social,SOC_Prospecting,29999.06
+2025-02-01,Paid Social,SOC_Retargeting,13047.14
+2025-02-01,Paid Social,SOC_Video,10660.43
+2025-02-01,Email,EML_Nurture,4773.76
+2025-02-01,Email,EML_Reactivation,3088.56
+2025-02-01,Partner,PART_Consultants,9213.92
+2025-02-01,Partner,PART_Community,5806.03
+2025-02-01,Organic Search,ORG_SEO,9526.58
+2025-02-01,Referral,REF_Customer,5239.34
+2025-02-01,Direct,DIR_None,0.0
+2025-03-01,Paid Search,PS_Brand,17174.8
+2025-03-01,Paid Search,PS_NonBrand,26906.27
+2025-03-01,Paid Search,PS_Competitor,8746.97
+2025-03-01,Paid Social,SOC_Prospecting,26654.26
+2025-03-01,Paid Social,SOC_Retargeting,17183.38
+2025-03-01,Paid Social,SOC_Video,10564.56
+2025-03-01,Email,EML_Nurture,4397.6
+2025-03-01,Email,EML_Reactivation,2924.39
+2025-03-01,Partner,PART_Consultants,7793.69
+2025-03-01,Partner,PART_Community,6440.69
+2025-03-01,Organic Search,ORG_SEO,7608.22
+2025-03-01,Referral,REF_Customer,5991.38
+2025-03-01,Direct,DIR_None,0.0
+2025-04-01,Paid Search,PS_Brand,19187.71
+2025-04-01,Paid Search,PS_NonBrand,25887.29
+2025-04-01,Paid Search,PS_Competitor,8657.38
+2025-04-01,Paid Social,SOC_Prospecting,31586.46
+2025-04-01,Paid Social,SOC_Retargeting,13158.69
+2025-04-01,Paid Social,SOC_Video,10549.93
+2025-04-01,Email,EML_Nurture,5333.34
+2025-04-01,Email,EML_Reactivation,3090.93
+2025-04-01,Partner,PART_Consultants,9021.66
+2025-04-01,Partner,PART_Community,5777.07
+2025-04-01,Organic Search,ORG_SEO,8456.47
+2025-04-01,Referral,REF_Customer,5287.07
+2025-04-01,Direct,DIR_None,0.0
+2025-05-01,Paid Search,PS_Brand,18807.01
+2025-05-01,Paid Search,PS_NonBrand,27010.51
+2025-05-01,Paid Search,PS_Competitor,8961.58
+2025-05-01,Paid Social,SOC_Prospecting,29464.3
+2025-05-01,Paid Social,SOC_Retargeting,13816.43
+2025-05-01,Paid Social,SOC_Video,9572.74
+2025-05-01,Email,EML_Nurture,5134.72
+2025-05-01,Email,EML_Reactivation,3259.65
+2025-05-01,Partner,PART_Consultants,10281.9
+2025-05-01,Partner,PART_Community,6596.79
+2025-05-01,Organic Search,ORG_SEO,8415.38
+2025-05-01,Referral,REF_Customer,6406.68
+2025-05-01,Direct,DIR_None,0.0
+2025-06-01,Paid Search,PS_Brand,18667.36
+2025-06-01,Paid Search,PS_NonBrand,24447.04
+2025-06-01,Paid Search,PS_Competitor,8518.64
+2025-06-01,Paid Social,SOC_Prospecting,35877.27
+2025-06-01,Paid Social,SOC_Retargeting,15022.06
+2025-06-01,Paid Social,SOC_Video,10680.87
+2025-06-01,Email,EML_Nurture,4788.06
+2025-06-01,Email,EML_Reactivation,2813.62
+2025-06-01,Partner,PART_Consultants,8414.74
+2025-06-01,Partner,PART_Community,6125.39
+2025-06-01,Organic Search,ORG_SEO,8978.81
+2025-06-01,Referral,REF_Customer,5900.21
+2025-06-01,Direct,DIR_None,0.0
+2025-07-01,Paid Search,PS_Brand,17895.56
+2025-07-01,Paid Search,PS_NonBrand,30756.2
+2025-07-01,Paid Search,PS_Competitor,7813.83
+2025-07-01,Paid Social,SOC_Prospecting,36068.57
+2025-07-01,Paid Social,SOC_Retargeting,13765.99
+2025-07-01,Paid Social,SOC_Video,9274.45
+2025-07-01,Email,EML_Nurture,5368.92
+2025-07-01,Email,EML_Reactivation,3116.96
+2025-07-01,Partner,PART_Consultants,8098.55
+2025-07-01,Partner,PART_Community,5621.2
+2025-07-01,Organic Search,ORG_SEO,8079.42
+2025-07-01,Referral,REF_Customer,5773.64
+2025-07-01,Direct,DIR_None,0.0
+2025-08-01,Paid Search,PS_Brand,17272.79
+2025-08-01,Paid Search,PS_NonBrand,32097.8
+2025-08-01,Paid Search,PS_Competitor,7332.15
+2025-08-01,Paid Social,SOC_Prospecting,33442.13
+2025-08-01,Paid Social,SOC_Retargeting,13920.06
+2025-08-01,Paid Social,SOC_Video,10523.84
+2025-08-01,Email,EML_Nurture,5107.38
+2025-08-01,Email,EML_Reactivation,2925.8
+2025-08-01,Partner,PART_Consultants,9552.99
+2025-08-01,Partner,PART_Community,6408.05
+2025-08-01,Organic Search,ORG_SEO,9289.56
+2025-08-01,Referral,REF_Customer,5505.02
+2025-08-01,Direct,DIR_None,0.0
+2025-09-01,Paid Search,PS_Brand,19559.39
+2025-09-01,Paid Search,PS_NonBrand,33030.85
+2025-09-01,Paid Search,PS_Competitor,10896.57
+2025-09-01,Paid Social,SOC_Prospecting,39613.54
+2025-09-01,Paid Social,SOC_Retargeting,17186.7
+2025-09-01,Paid Social,SOC_Video,10216.45
+2025-09-01,Email,EML_Nurture,5391.93
+2025-09-01,Email,EML_Reactivation,3603.07
+2025-09-01,Partner,PART_Consultants,9771.36
+2025-09-01,Partner,PART_Community,6998.91
+2025-09-01,Organic Search,ORG_SEO,9116.61
+2025-09-01,Referral,REF_Customer,6472.84
+2025-09-01,Direct,DIR_None,0.0

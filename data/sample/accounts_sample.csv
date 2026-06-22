@@ -1,0 +1,101 @@
+account_id,signup_date,country,industry,company_size,first_touch_channel,first_touch_campaign_id,trial_days
+A05540,2024-01-01,Canada,Home Services,1-5,Partner,PART_Community,14
+A10051,2024-01-01,Canada,Retail,51-200,Direct,DIR_None,14
+A09715,2024-01-01,Canada,Education,6-20,Partner,PART_Consultants,14
+A08035,2024-01-01,United States,Professional Services,6-20,Partner,PART_Consultants,14
+A05482,2024-01-01,Canada,Professional Services,201+,Organic Search,ORG_SEO,14
+A00744,2024-01-01,Canada,Technology,6-20,Paid Social,SOC_Video,14
+A10920,2024-01-01,United States,Healthcare,1-5,Organic Search,ORG_SEO,14
+A03503,2024-01-01,Canada,Technology,6-20,Paid Search,PS_Brand,14
+A10195,2024-01-01,Canada,Healthcare,1-5,Organic Search,ORG_SEO,14
+A00741,2024-01-01,Australia,Technology,6-20,Direct,DIR_None,14
+A07031,2024-01-01,United States,Professional Services,51-200,Referral,REF_Customer,14
+A01158,2024-01-01,Australia,Retail,1-5,Paid Social,SOC_Video,14
+A01837,2024-01-01,United States,Healthcare,6-20,Direct,DIR_None,14
+A01221,2024-01-01,Australia,Healthcare,6-20,Paid Social,SOC_Prospecting,14
+A06120,2024-01-01,United States,Education,201+,Referral,REF_Customer,14
+A11777,2024-01-01,United States,Professional Services,51-200,Organic Search,ORG_SEO,14
+A08584,2024-01-01,Canada,Healthcare,21-50,Organic Search,ORG_SEO,14
+A04553,2024-01-01,Canada,Technology,21-50,Partner,PART_Community,14
+A03453,2024-01-01,United States,Home Services,6-20,Direct,DIR_None,14
+A07009,2024-01-01,Canada,Retail,51-200,Organic Search,ORG_SEO,14
+A09867,2024-01-01,Canada,Professional Services,1-5,Direct,DIR_None,14
+A03877,2024-01-01,United States,Retail,1-5,Direct,DIR_None,14
+A02880,2024-01-01,Canada,Professional Services,1-5,Partner,PART_Consultants,14
+A10218,2024-01-01,United States,Retail,1-5,Paid Search,PS_Competitor,14
+A03151,2024-01-01,Canada,Technology,6-20,Organic Search,ORG_SEO,14
+A04642,2024-01-01,Australia,Professional Services,1-5,Paid Search,PS_Competitor,14
+A11874,2024-01-02,United States,Home Services,1-5,Organic Search,ORG_SEO,14
+A08015,2024-01-02,Canada,Professional Services,1-5,Organic Search,ORG_SEO,14
+A10242,2024-01-02,United States,Professional Services,6-20,Referral,REF_Customer,14
+A08959,2024-01-02,United States,Healthcare,6-20,Paid Search,PS_Brand,14
+A05156,2024-01-02,United States,Professional Services,6-20,Paid Social,SOC_Prospecting,14
+A06403,2024-01-02,United States,Healthcare,6-20,Organic Search,ORG_SEO,14
+A03492,2024-01-02,Canada,Education,1-5,Organic Search,ORG_SEO,14
+A11610,2024-01-02,United Kingdom,Professional Services,21-50,Partner,PART_Community,14
+A04419,2024-01-02,Canada,Home Services,6-20,Paid Social,SOC_Video,14
+A05183,2024-01-02,Canada,Education,1-5,Direct,DIR_None,14
+A06587,2024-01-02,United Kingdom,Healthcare,6-20,Organic Search,ORG_SEO,14
+A08299,2024-01-02,Canada,Technology,6-20,Email,EML_Reactivation,14
+A04315,2024-01-02,Canada,Home Services,51-200,Organic Search,ORG_SEO,14
+A11508,2024-01-02,United States,Retail,6-20,Paid Search,PS_NonBrand,14
+A06623,2024-01-02,Australia,Technology,6-20,Organic Search,ORG_SEO,14
+A02585,2024-01-02,United States,Home Services,1-5,Partner,PART_Consultants,14
+A07766,2024-01-02,Canada,Education,6-20,Direct,DIR_None,14
+A07466,2024-01-02,United Kingdom,Healthcare,21-50,Email,EML_Nurture,14
+A02731,2024-01-02,United States,Healthcare,6-20,Partner,PART_Consultants,14
+A10213,2024-01-02,United Kingdom,Professional Services,6-20,Organic Search,ORG_SEO,14
+A07636,2024-01-02,United Kingdom,Professional Services,6-20,Direct,DIR_None,14
+A00998,2024-01-02,Canada,Retail,6-20,Paid Search,PS_Competitor,14
+A03207,2024-01-02,United States,Professional Services,1-5,Referral,REF_Customer,14
+A10326,2024-01-02,Canada,Professional Services,51-200,Email,EML_Reactivation,14
+A00423,2024-01-03,Australia,Professional Services,6-20,Paid Social,SOC_Video,14
+A05178,2024-01-03,Canada,Professional Services,6-20,Partner,PART_Community,14
+A07203,2024-01-03,Canada,Professional Services,51-200,Paid Search,PS_Competitor,14
+A03606,2024-01-03,United Kingdom,Home Services,1-5,Paid Social,SOC_Prospecting,14
+A06989,2024-01-03,United Kingdom,Retail,6-20,Paid Social,SOC_Video,14
+A06128,2024-01-03,Canada,Education,51-200,Paid Search,PS_Competitor,14
+A05451,2024-01-03,United Kingdom,Healthcare,201+,Paid Search,PS_Competitor,14
+A07176,2024-01-03,Canada,Professional Services,6-20,Paid Search,PS_NonBrand,14
+A10431,2024-01-03,United States,Professional Services,21-50,Paid Search,PS_NonBrand,14
+A06159,2024-01-03,Canada,Home Services,6-20,Email,EML_Reactivation,14
+A11675,2024-01-03,Canada,Professional Services,51-200,Paid Social,SOC_Video,14
+A07013,2024-01-03,Canada,Education,1-5,Paid Social,SOC_Retargeting,14
+A03179,2024-01-03,Australia,Technology,21-50,Paid Social,SOC_Prospecting,14
+A09951,2024-01-03,United States,Healthcare,1-5,Organic Search,ORG_SEO,14
+A01314,2024-01-03,United States,Technology,1-5,Partner,PART_Community,14
+A01617,2024-01-03,Canada,Healthcare,1-5,Organic Search,ORG_SEO,14
+A11460,2024-01-03,United States,Home Services,21-50,Direct,DIR_None,14
+A07929,2024-01-03,Canada,Education,1-5,Referral,REF_Customer,14
+A06042,2024-01-03,United States,Healthcare,6-20,Email,EML_Nurture,14
+A09818,2024-01-03,Canada,Technology,6-20,Direct,DIR_None,14
+A00775,2024-01-03,Canada,Professional Services,51-200,Paid Social,SOC_Retargeting,14
+A08715,2024-01-03,United States,Education,21-50,Partner,PART_Consultants,14
+A00647,2024-01-03,United States,Professional Services,1-5,Organic Search,ORG_SEO,14
+A02299,2024-01-03,Canada,Education,1-5,Organic Search,ORG_SEO,14
+A08633,2024-01-03,Canada,Technology,1-5,Paid Search,PS_Brand,14
+A00811,2024-01-03,Australia,Retail,51-200,Referral,REF_Customer,14
+A05228,2024-01-03,Canada,Home Services,6-20,Paid Social,SOC_Retargeting,14
+A09342,2024-01-03,Australia,Retail,1-5,Organic Search,ORG_SEO,14
+A09686,2024-01-03,United Kingdom,Healthcare,21-50,Email,EML_Nurture,14
+A04773,2024-01-03,United States,Healthcare,51-200,Email,EML_Reactivation,14
+A01323,2024-01-03,United States,Retail,21-50,Partner,PART_Community,14
+A03038,2024-01-03,United States,Education,6-20,Organic Search,ORG_SEO,14
+A03439,2024-01-04,United States,Healthcare,6-20,Email,EML_Nurture,14
+A04991,2024-01-04,Canada,Technology,6-20,Paid Search,PS_NonBrand,14
+A03463,2024-01-04,United Kingdom,Professional Services,1-5,Partner,PART_Consultants,14
+A04775,2024-01-04,United States,Healthcare,6-20,Paid Social,SOC_Video,14
+A00595,2024-01-04,United States,Education,21-50,Referral,REF_Customer,14
+A01101,2024-01-04,Canada,Education,6-20,Organic Search,ORG_SEO,14
+A10334,2024-01-04,United States,Retail,6-20,Paid Social,SOC_Prospecting,14
+A07550,2024-01-04,United Kingdom,Technology,6-20,Organic Search,ORG_SEO,14
+A05424,2024-01-04,United Kingdom,Education,21-50,Organic Search,ORG_SEO,14
+A02922,2024-01-04,United States,Professional Services,6-20,Partner,PART_Consultants,14
+A08542,2024-01-04,United Kingdom,Education,1-5,Paid Search,PS_Brand,14
+A00052,2024-01-04,United States,Healthcare,201+,Organic Search,ORG_SEO,14
+A09215,2024-01-04,United States,Home Services,6-20,Referral,REF_Customer,14
+A07122,2024-01-04,United States,Technology,201+,Organic Search,ORG_SEO,14
+A05031,2024-01-04,United States,Professional Services,6-20,Partner,PART_Consultants,14
+A04156,2024-01-04,Canada,Education,51-200,Direct,DIR_None,14
+A08923,2024-01-04,United States,Technology,21-50,Paid Social,SOC_Retargeting,14
+A08500,2024-01-04,Canada,Technology,51-200,Paid Search,PS_Brand,14

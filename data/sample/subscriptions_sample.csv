@@ -1,0 +1,101 @@
+subscription_id,account_id,trial_start_date,conversion_date,plan_name,monthly_recurring_revenue,cancel_date,status
+S00001,A00001,2025-05-08,,Trial Only,0,,trial_expired
+S00002,A00002,2024-10-09,2024-10-25,Starter,49,2025-03-06,cancelled
+S00003,A00003,2025-07-05,2025-07-13,Starter,49,,active
+S00004,A00004,2025-03-16,2025-03-23,Pro,99,,active
+S00005,A00005,2024-02-24,2024-02-29,Starter,49,2024-09-06,cancelled
+S00006,A00006,2025-09-18,,Trial Only,0,,trial_expired
+S00007,A00007,2025-04-29,,Trial Only,0,,trial_expired
+S00008,A00008,2025-05-16,2025-05-31,Business,249,2025-07-15,cancelled
+S00009,A00009,2024-03-19,,Trial Only,0,,trial_expired
+S00010,A00010,2024-10-17,2024-10-28,Pro,99,2025-06-05,cancelled
+S00011,A00011,2024-09-01,2024-09-18,Pro,99,2025-03-13,cancelled
+S00012,A00012,2025-08-21,,Trial Only,0,,trial_expired
+S00013,A00013,2025-02-07,,Trial Only,0,,trial_expired
+S00014,A00014,2025-06-10,,Trial Only,0,,trial_expired
+S00015,A00015,2024-10-12,2024-10-28,Starter,49,2025-02-01,cancelled
+S00016,A00016,2024-05-26,2024-06-18,Business,249,2024-11-14,cancelled
+S00017,A00017,2024-12-18,,Trial Only,0,,trial_expired
+S00018,A00018,2024-02-03,2024-02-29,Starter,49,2024-06-15,cancelled
+S00019,A00019,2025-06-14,,Trial Only,0,,trial_expired
+S00020,A00020,2025-01-30,2025-02-12,Starter,49,2025-03-07,cancelled
+S00021,A00021,2025-04-27,,Trial Only,0,,trial_expired
+S00022,A00022,2024-08-21,2024-08-28,Pro,99,2024-09-01,cancelled
+S00023,A00023,2025-09-15,2025-09-20,Starter,49,,active
+S00024,A00024,2025-07-29,,Trial Only,0,,trial_expired
+S00025,A00025,2025-05-11,,Trial Only,0,,trial_expired
+S00026,A00026,2024-05-03,2024-05-19,Starter,49,2026-02-12,cancelled
+S00027,A00027,2024-10-28,,Trial Only,0,,trial_expired
+S00028,A00028,2024-01-23,2024-02-09,Starter,49,2024-05-23,cancelled
+S00029,A00029,2024-04-06,,Trial Only,0,,trial_expired
+S00030,A00030,2025-03-06,,Trial Only,0,,trial_expired
+S00031,A00031,2025-04-17,2025-04-24,Starter,49,2026-01-18,cancelled
+S00032,A00032,2025-09-14,,Trial Only,0,,trial_expired
+S00033,A00033,2024-08-02,2024-08-06,Business,249,2026-03-07,cancelled
+S00034,A00034,2024-09-01,,Trial Only,0,,trial_expired
+S00035,A00035,2024-10-30,,Trial Only,0,,trial_expired
+S00036,A00036,2024-04-30,2024-05-16,Starter,49,2024-11-18,cancelled
+S00037,A00037,2024-03-20,,Trial Only,0,,trial_expired
+S00038,A00038,2024-11-02,,Trial Only,0,,trial_expired
+S00039,A00039,2024-05-26,2024-06-12,Pro,99,,active
+S00040,A00040,2025-02-25,,Trial Only,0,,trial_expired
+S00041,A00041,2024-10-08,,Trial Only,0,,trial_expired
+S00042,A00042,2025-06-17,,Trial Only,0,,trial_expired
+S00043,A00043,2025-03-18,2025-03-24,Pro,99,2025-04-07,cancelled
+S00044,A00044,2024-07-23,,Trial Only,0,,trial_expired
+S00045,A00045,2025-06-17,,Trial Only,0,,trial_expired
+S00046,A00046,2025-05-29,2025-06-06,Starter,49,,active
+S00047,A00047,2024-09-10,2024-09-16,Pro,99,,active
+S00048,A00048,2024-07-07,,Trial Only,0,,trial_expired
+S00049,A00049,2025-03-06,2025-03-11,Starter,49,2025-05-06,cancelled
+S00050,A00050,2024-03-27,2024-04-06,Pro,99,2024-09-02,cancelled
+S00051,A00051,2024-05-07,,Trial Only,0,,trial_expired
+S00052,A00052,2024-01-04,,Trial Only,0,,trial_expired
+S00053,A00053,2025-05-16,2025-05-26,Pro,99,,active
+S00054,A00054,2025-02-21,,Trial Only,0,,trial_expired
+S00055,A00055,2025-03-21,2025-03-31,Business,249,,active
+S00056,A00056,2025-05-12,2025-05-26,Starter,49,2025-09-11,cancelled
+S00057,A00057,2024-10-23,,Trial Only,0,,trial_expired
+S00058,A00058,2024-12-27,,Trial Only,0,,trial_expired
+S00059,A00059,2024-03-27,2024-04-10,Pro,99,2024-08-13,cancelled
+S00060,A00060,2024-03-09,,Trial Only,0,,trial_expired
+S00061,A00061,2025-02-24,,Trial Only,0,,trial_expired
+S00062,A00062,2024-10-31,2024-11-10,Pro,99,,active
+S00063,A00063,2024-12-25,2025-01-02,Starter,49,,active
+S00064,A00064,2025-05-01,,Trial Only,0,,trial_expired
+S00065,A00065,2025-02-01,,Trial Only,0,,trial_expired
+S00066,A00066,2024-12-17,,Trial Only,0,,trial_expired
+S00067,A00067,2024-12-21,2025-01-03,Pro,99,2025-02-02,cancelled
+S00068,A00068,2024-07-18,2024-07-30,Starter,49,2024-11-14,cancelled
+S00069,A00069,2024-01-16,2024-01-27,Starter,49,2024-06-12,cancelled
+S00070,A00070,2024-10-07,,Trial Only,0,,trial_expired
+S00071,A00071,2024-05-17,2024-05-31,Starter,49,,active
+S00072,A00072,2024-09-21,,Trial Only,0,,trial_expired
+S00073,A00073,2025-07-01,,Trial Only,0,,trial_expired
+S00074,A00074,2024-05-30,,Trial Only,0,,trial_expired
+S00075,A00075,2024-01-31,2024-02-13,Starter,49,2024-03-21,cancelled
+S00076,A00076,2024-07-02,,Trial Only,0,,trial_expired
+S00077,A00077,2024-07-10,,Trial Only,0,,trial_expired
+S00078,A00078,2025-02-19,2025-03-08,Pro,99,,active
+S00079,A00079,2024-12-19,,Trial Only,0,,trial_expired
+S00080,A00080,2025-05-14,,Trial Only,0,,trial_expired
+S00081,A00081,2025-02-21,2025-03-01,Starter,49,,active
+S00082,A00082,2024-09-20,,Trial Only,0,,trial_expired
+S00083,A00083,2025-06-04,,Trial Only,0,,trial_expired
+S00084,A00084,2024-04-14,,Trial Only,0,,trial_expired
+S00085,A00085,2024-01-12,2024-01-28,Starter,49,2024-09-20,cancelled
+S00086,A00086,2024-02-21,2024-02-25,Starter,49,,active
+S00087,A00087,2025-04-02,,Trial Only,0,,trial_expired
+S00088,A00088,2024-10-25,,Trial Only,0,,trial_expired
+S00089,A00089,2024-04-10,2024-04-21,Starter,49,2025-07-04,cancelled
+S00090,A00090,2024-11-16,,Trial Only,0,,trial_expired
+S00091,A00091,2024-04-04,,Trial Only,0,,trial_expired
+S00092,A00092,2025-03-15,2025-03-25,Business,249,2025-09-22,cancelled
+S00093,A00093,2024-10-14,2024-10-20,Pro,99,2025-10-25,cancelled
+S00094,A00094,2024-09-07,2024-09-18,Starter,49,2024-11-05,cancelled
+S00095,A00095,2024-07-16,2024-07-25,Starter,49,2025-04-05,cancelled
+S00096,A00096,2025-01-29,,Trial Only,0,,trial_expired
+S00097,A00097,2024-08-27,,Trial Only,0,,trial_expired
+S00098,A00098,2024-02-20,,Trial Only,0,,trial_expired
+S00099,A00099,2024-03-12,,Trial Only,0,,trial_expired
+S00100,A00100,2025-09-11,2025-09-23,Pro,99,,active
