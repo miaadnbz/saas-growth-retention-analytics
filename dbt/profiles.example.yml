@@ -1,0 +1,12 @@
+saas_growth_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: YOUR_GCP_PROJECT
+      dataset: analytics_saas
+      location: US
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive

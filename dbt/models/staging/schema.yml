@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: stg_accounts
+    description: One row per SaaS trial account.
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+      - name: signup_date
+        tests: [not_null]
+      - name: first_touch_channel
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Organic Search', 'Paid Search', 'Paid Social', 'Referral', 'Partner', 'Direct', 'Email']
+  - name: stg_product_events
+    columns:
+      - name: event_id
+        tests: [not_null, unique]
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_accounts')
+                field: account_id
+  - name: stg_subscriptions
+    columns:
+      - name: subscription_id
+        tests: [not_null, unique]
+      - name: account_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('stg_accounts')
+                field: account_id
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['trial_expired', 'active', 'cancelled']
+  - name: stg_invoices
+    columns:
+      - name: invoice_id
+        tests: [not_null, unique]
+      - name: account_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_accounts')
+                field: account_id

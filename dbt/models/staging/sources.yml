@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_saas
+    database: "{{ target.project }}"
+    schema: raw_saas
+    description: Synthetic raw source tables generated for this portfolio case study.
+    tables:
+      - name: accounts
+      - name: marketing_touches
+      - name: product_events
+      - name: subscriptions
+      - name: invoices
+      - name: support_tickets
+      - name: campaign_spend
