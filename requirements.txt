@@ -1,0 +1,7 @@
+pandas>=2.2,<3.0
+numpy>=2.0,<3.0
+google-cloud-bigquery>=3.25,<4.0
+dbt-bigquery>=1.9,<2.0
+matplotlib>=3.9,<4.0
+sqlfluff>=3.2,<4.0
+sqlfluff-templater-dbt>=3.2,<4.0
