@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: fct_growth_funnel
+    description: One row per account with acquisition, activation, subscription, retention, and revenue outcomes.
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+  - name: mart_channel_performance
+    description: Channel-level growth and unit-economics metrics for budget decisions.
+    columns:
+      - name: channel
+        tests: [not_null, unique]
+  - name: mart_activation_drivers
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+  - name: mart_customer_health
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
