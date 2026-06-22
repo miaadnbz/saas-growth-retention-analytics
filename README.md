@@ -36,10 +36,10 @@ The analysis indicates that **customer quality, not signup volume, should drive 
 
 The live Looker Studio dashboard should contain four pages:
 
-1. **Executive Overview** — signups, activation, trial conversion, 90-day retention, recurring revenue, and recommended action.
-2. **Acquisition & Unit Economics** — spend, CAC, retained CAC, revenue-to-spend, and channel quality.
-3. **Activation Funnel** — onboarding milestone completion, time-to-activation, and drop-off by segment.
-4. **Retention & Customer Health** — cohort retention, churn signals, support burden, and intervention lists.
+1. **Executive Overview** : signups, activation, trial conversion, 90-day retention, recurring revenue, and recommended action.
+2. **Acquisition & Unit Economics** : spend, CAC, retained CAC, revenue-to-spend, and channel quality.
+3. **Activation Funnel** : onboarding milestone completion, time-to-activation, and drop-off by segment.
+4. **Retention & Customer Health** : cohort retention, churn signals, support burden, and intervention lists.
 
 ## Case structure
 
