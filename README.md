@@ -182,5 +182,5 @@ dbt build
 
 ## Author
 
-**[Miaad Nabizadeh]** | Marketing Analytics | Customer Insights | Product Analytics  
-[LinkedIn]([https://www.linkedin.com/in/miaadnabizadeh/])
+**Miaad Nabizadeh** | Marketing Analytics | Customer Insights | Product Analytics  
+[LinkedIn](https://www.linkedin.com/in/miaadnabizadeh)
