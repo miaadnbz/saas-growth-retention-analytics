@@ -1,0 +1,19 @@
+{
+  "signups": 12000,
+  "activation_rate": 0.51925,
+  "trial_to_paid": 0.46808333333333335,
+  "paid_accounts": 5617,
+  "retention_90d_activated": 0.864,
+  "retention_90d_not_activated": 0.6517922457937089,
+  "conversion_activated": 0.6820735034504894,
+  "conversion_not_activated": 0.23695614491246317,
+  "paid_social_activation": 0.5076263107721639,
+  "paid_social_extra_activated_10pp": 210,
+  "scenario_extra_paid": 93.47464529298551,
+  "scenario_extra_retained": 80.76209353313948,
+  "scenario_incremental_arr": 95945.3671173697,
+  "top_channel_roas": "Referral",
+  "top_channel_roas_value": 6.862304838161796,
+  "worst_paid_channel_roas": "Paid Social",
+  "worst_paid_channel_roas_value": 0.40131849320839835
+}
