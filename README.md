@@ -8,7 +8,7 @@
 
 ## Executive question
 
-**Which acquisition channels bring customers who activate, convert, and remain subscribed—and where should Marketing and Product invest next?**
+**Which acquisition channels bring customers who activate, convert, and remain subscribed, and where should Marketing and Product invest next?**
 
 This project simulates the work of a senior marketing or customer analytics professional supporting a B2B SaaS growth team. It combines acquisition spend, multi-touch marketing journeys, onboarding behavior, subscriptions, invoices, and support interactions into a trusted analytics layer.
 
@@ -36,10 +36,10 @@ The analysis indicates that **customer quality, not signup volume, should drive 
 
 The live Looker Studio dashboard should contain four pages:
 
-1. **Executive Overview** — signups, activation, trial conversion, 90-day retention, recurring revenue, and recommended action.
-2. **Acquisition & Unit Economics** — spend, CAC, retained CAC, revenue-to-spend, and channel quality.
-3. **Activation Funnel** — onboarding milestone completion, time-to-activation, and drop-off by segment.
-4. **Retention & Customer Health** — cohort retention, churn signals, support burden, and intervention lists.
+1. **Executive Overview** : signups, activation, trial conversion, 90-day retention, recurring revenue, and recommended action.
+2. **Acquisition & Unit Economics** : spend, CAC, retained CAC, revenue-to-spend, and channel quality.
+3. **Activation Funnel** : onboarding milestone completion, time-to-activation, and drop-off by segment.
+4. **Retention & Customer Health** : cohort retention, churn signals, support burden, and intervention lists.
 
 ## Case structure
 
@@ -57,13 +57,13 @@ Where should the company invest to acquire and retain more valuable customers, a
 
 ### Answer
 
-Build a governed customer-level model, connect spend to lifecycle outcomes, identify activation milestones, and measure channel performance using retained customers and realized revenue—not signups alone.
+Build a governed customer-level model, connect spend to lifecycle outcomes, identify activation milestones, and measure channel performance using retained customers and realized revenue; not signups alone.
 
 ## Metric definitions
 
 | Metric | Definition |
 |---|---|
-| Activation | Account completes at least two of three critical actions—create a project, invite a teammate, connect an integration—within 14 days of signup. |
+| Activation | Account completes at least two of three critical actions, create a project, invite a teammate, connect an integration, within 14 days of signup. |
 | Trial-to-paid conversion | Share of trial accounts with a non-null conversion date. |
 | 90-day retention | Paid account has no cancellation on or before 90 days after conversion. |
 | CAC | Channel spend divided by new paid accounts attributed to that channel. |
@@ -182,5 +182,5 @@ dbt build
 
 ## Author
 
-**[Your Name]** — Marketing Analytics | Customer Insights | Product Analytics  
-[LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL) · [Email](mailto:YOUR_EMAIL)
+**Miaad Nabizadeh** | Marketing Analytics | Customer Insights | Product Analytics  
+[LinkedIn](https://www.linkedin.com/in/miaadnabizadeh)
