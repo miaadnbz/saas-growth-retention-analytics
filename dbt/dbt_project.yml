@@ -22,4 +22,4 @@ models:
       +schema: intermediate
     marts:
       +materialized: table
-      +schema: analytics_saas
+      +schema: marts
