@@ -163,6 +163,10 @@ Run all models and tests with:
 ```bash
 dbt build
 ```
+The dbt project was successfully built and tested in BigQuery. The build validates model dependencies, source relationships, uniqueness, non-null constraints, and accepted values.
+
+![Successful dbt build](assets/dbt-build-success.png)
+
 
 ## Limitations
 
