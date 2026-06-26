@@ -15,5 +15,5 @@ select
     when retained_cac is null then 'Measure incrementality before investment'
     else 'Maintain and test'
   end as recommended_decision
-from `YOUR_GCP_PROJECT.analytics_saas.mart_channel_performance`
+from `saas-growth-portfolio.analytics_saas_marts.mart_channel_performance`
 order by revenue_to_spend desc;
