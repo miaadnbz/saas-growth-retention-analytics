@@ -19,3 +19,16 @@ models:
     columns:
       - name: account_id
         tests: [not_null, unique]
+  - name: mart_cohort_retention
+    description: >
+      Monthly retention by paid conversion cohort.
+      Unobservable future cohort months are excluded.
+    columns:
+      - name: conversion_cohort
+        tests: [not_null]
+
+      - name: month_number
+        tests: [not_null]
+
+      - name: retention_rate
+        tests: [not_null]
