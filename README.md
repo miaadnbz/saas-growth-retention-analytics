@@ -78,17 +78,23 @@ The [interactive report](https://datastudio.google.com/reporting/f50d48d6-bdc5-4
 
 <details>
 <summary>View Activation Drivers</summary>
+
 ![Activation drivers](assets\activation-drivers.png)
+
 </details>
 
 <details>
 <summary>View Retention & Cohorts</summary>
+
 ![Retention & Cohorts](assets\retention-cohorts.png)
+
 </details>
 
 <details>
 <summary>View Customer Health</summary>
+
 ![Customer Health](assets\customer-health.png)
+
 </details>
 
 ## Architecture
