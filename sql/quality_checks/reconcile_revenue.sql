@@ -4,7 +4,7 @@ with invoice_total as (
   where payment_status = 'paid'
 ), mart_total as (
   select sum(realized_revenue) as amount
-  from `YOUR_GCP_PROJECT.analytics_saas.mart_channel_performance`
+  from `saas-growth-portfolio.analytics_saas_marts.mart_channel_performance`
 )
 select
   invoice_total.amount as source_revenue,
