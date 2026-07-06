@@ -6,7 +6,12 @@
 [![data](https://img.shields.io/badge/data-100%25%20synthetic-blue)](data/data_dictionary.md)
 [![status](https://img.shields.io/badge/status-portfolio%20case%20study-success)](#)
 
+![Executive Summary](assets/executive-overview.png)
+
+
 [View the interactive Looker Studio dashboard](https://datastudio.google.com/reporting/f50d48d6-bdc5-47f1-9397-a5ef6d657cf3)
+
+
 
 
 ## Executive question
@@ -79,21 +84,21 @@ The [interactive report](https://datastudio.google.com/reporting/f50d48d6-bdc5-4
 <details>
 <summary>View Activation Drivers</summary>
 
-![Activation drivers](assets\activation-drivers.png)
+![Activation drivers](assets/activation-drivers.png)
 
 </details>
 
 <details>
 <summary>View Retention & Cohorts</summary>
 
-![Retention & Cohorts](assets\retention-cohorts.png)
+![Retention & Cohorts](assets/retention-cohorts.png)
 
 </details>
 
 <details>
 <summary>View Customer Health</summary>
 
-![Customer Health](assets\customer-health.png)
+![Customer Health](assets/customer-health.png)
 
 </details>
 
