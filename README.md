@@ -6,70 +6,90 @@
 [![data](https://img.shields.io/badge/data-100%25%20synthetic-blue)](data/data_dictionary.md)
 [![status](https://img.shields.io/badge/status-portfolio%20case%20study-success)](#)
 
+[View the interactive Looker Studio dashboard](https://datastudio.google.com/reporting/f50d48d6-bdc5-47f1-9397-a5ef6d657cf3)
+
+
 ## Executive question
 
 **Which acquisition channels bring customers who activate, convert, and remain subscribed, and where should Marketing and Product invest next?**
 
-This project simulates the work of a senior marketing or customer analytics professional supporting a B2B SaaS growth team. It combines acquisition spend, multi-touch marketing journeys, onboarding behavior, subscriptions, invoices, and support interactions into a trusted analytics layer.
+This project connects marketing spend and acquisition journeys with onboarding behaviour, subscriptions, invoice revenue, support interactions, and customer retention.
+
+The objective is to move growth decisions beyond signup volume and platform reported conversions toward activation, retained customers, and realized revenue.
 
 ## Executive answer
 
-The analysis indicates that **customer quality, not signup volume, should drive budget and onboarding decisions**:
+Customer quality (not signup volume alone) should guide acquisition and onboarding decisions.
 
-1. **Activation is the strongest early growth lever.** Paid accounts that activated retained for 90 days at **86.4%**, versus **65.2%** among non-activated paid accounts. Activated trials also converted at **68.2%**, compared with **23.7%** for non-activated trials.
-2. **Referral produces the strongest customer economics.** It generated a **52.8% activation rate**, **47.8% trial-to-paid conversion**, and **6.86x observed revenue-to-spend ratio** in the synthetic observation window.
-3. **Paid Social drives scale but weaker downstream quality.** Its activation rate was **50.8%** and its observed revenue-to-spend ratio was **0.40x**, making it the clearest optimization opportunity among paid channels.
-4. **Product onboarding and marketing efficiency are connected.** A scenario that raises Paid Social activation by 10 percentage points is estimated to produce approximately **81 additional 90-day retained paid accounts** and **$95,945 in annualized recurring revenue**. This is a planning scenario based on observed differences, not a causal forecast.
+* Overall 14-day activation is approximately **52%**.
+* Referral has the strongest activation rate at approximately **65%**, while Paid Social has the weakest at approximately **39%**.
+* Referral and Organic Search each generate approximately **$6.9 in observed realized revenue per $1 of attributed marketing spend**.
+* Paid Social generates approximately **$0.4 per $1 of spend**, making it the clearest paid-channel optimization opportunity.
+* Activated paid accounts show approximately **86% 90-day retention**, compared with approximately **65%** among non-activated paid accounts.
+* Customer loss is concentrated in the first three paid months, making early onboarding the highest-priority intervention window.
+
+***These results are observational. They identify where to test interventions but do not establish causal incrementality***.
 
 ## Recommended decisions
 
-| Priority | Recommendation | Expected business effect | How to validate |
-|---|---|---|---|
-| 1 | Trigger role-based onboarding when a trial has not completed two critical actions by day 3. | Increase activation, trial conversion, and 90-day retention. | Randomized holdout; primary metric: activation within 14 days; guardrails: unsubscribe rate and support volume. |
-| 2 | Reallocate a controlled portion of Paid Social prospecting spend toward Referral and high-intent Paid Search. | Improve acquired-customer quality and revenue efficiency without stopping experimentation. | Geo or audience holdout; compare incremental paid conversions and 90-day gross profit. |
-| 3 | Make `invited_teammate` and `connected_integration` explicit onboarding milestones. | Shorten time-to-value and create stickier multi-user workflows. | Funnel experiment with milestone prompts; measure 30- and 90-day retention. |
-| 4 | Adopt retained CAC and 90-day revenue-to-spend alongside platform ROAS. | Prevent overinvestment in campaigns that generate low-quality signups. | Monthly metric reconciliation across warehouse, CRM, and ad platforms. |
+| Priority | Recommendation                                                                                                              | Business rationale                                                               | Validation                                                                                                                                 |
+| -------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1        | Trigger a day-3 onboarding intervention when a Paid Social trial has completed fewer than two critical actions.             | Paid Social has the weakest activation and revenue efficiency.                   | Randomized account-level holdout; primary metric: 14-day activation; guardrails: unsubscribe rate, support volume, and early cancellation. |
+| 2        | Protect and expand high efficiency referral acquisition while testing improvements to Paid Social targeting and onboarding. | Referral combines strong activation, retention, and observed revenue efficiency. | Referral program experiment and Paid Social audience/onboarding holdouts.                                                                  |
+| 3        | Make teammate invitation and integration connection explicit onboarding milestones.                                         | These actions represent collaborative adoption and deeper workflow integration.  | Test milestone prompts and measure activation, paid conversion, and 90-day retention.                                                      |
+| 4        | Add retained CAC and 90-day revenue-to-spend to regular marketing reporting.                                                | Platform ROAS can overvalue campaigns that generate low-quality conversions.     | Monthly reconciliation across warehouse, CRM, billing, and advertising platforms.                                                          |
 
-## Dashboard preview
+### Quantified planning scenario
 
-![Executive dashboard wireframe](assets/dashboard_wireframe.png)
+A **10 percentage point** improvement in **Paid Social activation** is associated with approximately:
 
-The live Looker Studio dashboard should contain four pages:
+* **210 additional activated trials**
+* **93 additional paid accounts**
+* **81 additional 90-day retained accounts**
+* **$96K in annualized recurring revenue**
 
-1. **Executive Overview** : signups, activation, trial conversion, 90-day retention, recurring revenue, and recommended action.
-2. **Acquisition & Unit Economics** : spend, CAC, retained CAC, revenue-to-spend, and channel quality.
-3. **Activation Funnel** : onboarding milestone completion, time-to-activation, and drop-off by segment.
-4. **Retention & Customer Health** : cohort retention, churn signals, support burden, and intervention lists.
+***This is a planning scenario based on observed funnel relationships, not a causal forecast***.
 
-## Case structure
 
-### Situation
+### Experiment validation
 
-The company is growing trial registrations across seven acquisition channels, but channel dashboards disagree and optimize toward top-of-funnel conversion. Leadership cannot tell whether high-volume campaigns create durable subscription revenue.
+The proposed hypothesis, treatment, eligibility criteria, metrics, guardrails, and rollout decision are documented in the [Paid Social onboarding experiment plan](docs/onboarding_experiment.md).
 
-### Complication
+## What I built
 
-Marketing data is separated from product events, billing, and support data. Platform ROAS therefore rewards immediate conversions without considering onboarding success, retention, or customer lifetime value.
+* A reproducible synthetic B2B SaaS dataset covering acquisition, product events, subscriptions, invoices, and support interactions
+* A BigQuery raw-data layer and tested dbt transformation pipeline
+* Staging, intermediate, and decision-ready marketing, product, and customer marts
+* Governed definitions for activation, paid conversion, CAC, retained CAC, realized revenue, retention, and customer health
+* A five-page Looker Studio dashboard
+* A quantified business recommendation and experiment plan
 
-### Question
+## Dashboard
 
-Where should the company invest to acquire and retain more valuable customers, and which early product behaviors should be influenced?
+The [interactive report](https://datastudio.google.com/reporting/f50d48d6-bdc5-47f1-9397-a5ef6d657cf3) contains five pages:
 
-### Answer
+1. **Executive Overview**: lifecycle KPIs, funnel performance, channel revenue efficiency, and recommended action
+2. **Acquisition & Unit Economics**: spend, CAC, retained CAC, customer quality, and channel comparisons
+3. **Activation Drivers**: activation by channel and company size, plus onboarding milestone completion
+4. **Retention & Cohorts**: cohort heatmap, retention curves, and activated versus non-activated retention
+5. **Customer Health**: at-risk accounts, MRR at risk, inactivity, support risk, and intervention priorities
 
-Build a governed customer-level model, connect spend to lifecycle outcomes, identify activation milestones, and measure channel performance using retained customers and realized revenue; not signups alone.
+### Additional dashboard views
 
-## Metric definitions
+<details>
+<summary>View Activation Drivers</summary>
 
-| Metric | Definition |
-|---|---|
-| Activation | Account completes at least two of three critical actions, create a project, invite a teammate, connect an integration, within 14 days of signup. |
-| Trial-to-paid conversion | Share of trial accounts with a non-null conversion date. |
-| 90-day retention | Paid account has no cancellation on or before 90 days after conversion. |
-| CAC | Channel spend divided by new paid accounts attributed to that channel. |
-| Retained CAC | Channel spend divided by paid accounts retained at day 90. |
-| Revenue-to-spend | Realized invoice revenue divided by channel spend during the synthetic observation period ending March 31, 2026. |
-| Customer health | Composite of activation, recent usage, support burden, and subscription status. |
+</details>
+
+<details>
+<summary>View Retention & Cohorts</summary>
+
+</details>
+
+<details>
+<summary>View Customer Health</summary>
+
+</details>
 
 ## Architecture
 
@@ -87,6 +107,20 @@ flowchart LR
     H --> I[Executive decisions]
 ```
 
+## Metric definitions
+
+| Metric | Definition |
+|---|---|
+| Activation | Account completes at least two of three critical actions: create a project, invite a teammate, or connect an integration—within 14 days of signup. |
+| Trial-to-paid conversion | Share of trial accounts with a non-null conversion date. |
+| 90-day retention | Paid account has no cancellation on or before 90 days after conversion. |
+| CAC | Channel spend divided by new paid accounts attributed to that channel. |
+| Retained CAC | Channel spend divided by paid accounts retained at day 90. |
+| Revenue-to-spend | Realized invoice revenue divided by channel spend during the synthetic observation period ending March 31, 2026. |
+| Customer health | Weighted score based on activation, recent product activity, high-priority support tickets, and customer satisfaction. |
+
+
+
 ## Repository map
 
 ```text
@@ -103,7 +137,9 @@ flowchart LR
 ├── docs/
 │   ├── executive_brief.md
 │   ├── dashboard_build_guide.md
-│   └── measurement_plan.md
+│   ├── measurement_plan.md
+│   ├── onboarding_experiment.md
+│   └── opportunity_scenario.md
 ├── scripts/
 │   ├── generate_synthetic_data.py
 │   └── load_csv_to_bigquery.py
@@ -135,17 +171,28 @@ python scripts/load_csv_to_bigquery.py --project YOUR_GCP_PROJECT --dataset raw_
 
 ### 3. Configure and run dbt
 
-```bash
-cd dbt
-cp profiles.example.yml ~/.dbt/profiles.yml
-# Replace YOUR_GCP_PROJECT and authentication values in profiles.yml
+**Windows PowerShell**
+
+```powershell
+New-Item -ItemType Directory -Force "$HOME\.dbt"
+Copy-Item ".\profiles.example.yml" "$HOME\.dbt\profiles.yml"
 dbt debug
 dbt build
 ```
+**macOS/Linux**
+
+mkdir -p ~/.dbt
+cp profiles.example.yml ~/.dbt/profiles.yml
+dbt debug
+dbt build
 
 ### 4. Connect Looker Studio
 
-Connect each dashboard page to the relevant mart in the `analytics_saas` dataset. Follow [docs/dashboard_build_guide.md](docs/dashboard_build_guide.md), then replace the dashboard placeholder in this README with your public report link and screenshots.
+Connect the report to the decision-ready tables in the `analytics_saas_marts` BigQuery dataset.
+
+See [the dashboard build guide](docs/dashboard_build_guide.md) for chart definitions, filters, and metric configuration.
+
+
 
 ## Data quality and testing
 
@@ -183,6 +230,17 @@ The dbt project was successfully built and tested in BigQuery. The build validat
 - Product activation and customer-health analytics
 - Experiment design and quantified recommendations
 - Executive communication that separates evidence, assumptions, and decisions
+
+## My contribution
+
+I framed the business problem, generated the reproducible synthetic data, loaded it into BigQuery, built and tested the dbt transformation pipeline, defined the analytical metrics, created the Looker Studio dashboard, and translated the findings into an experiment and investment recommendation.
+
+## Future enhancements
+
+- Add business-friendly customer health bands and calibrated risk thresholds
+- Add milestone-level 90-day retention comparisons
+- Add monthly channel-performance trends
+- Add experiment-results models and incremental-lift reporting
 
 ## Author
 
