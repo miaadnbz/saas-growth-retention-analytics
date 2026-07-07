@@ -1,3 +1,6 @@
+-- Diagnostic version of the automated dbt revenue reconciliation test.
+-- Use this query to inspect the source total, mart total, and difference.
+
 with invoice_total as (
   select sum(amount) as amount
   from `saas-growth-portfolio.analytics_saas_staging.stg_invoices`

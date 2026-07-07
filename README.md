@@ -214,7 +214,8 @@ The dbt project tests:
 - Account relationships across event, subscription, invoice, and support tables
 - One row per account in customer marts
 - Logical dates, including conversion after signup and cancellation after conversion
-- Reconciliation between invoice revenue and channel revenue marts
+- No unobserved future months in cohort-retention models
+- Automated reconciliation between paid invoice revenue and realized revenue in the channel-performance mart
 
 Run all models and tests with:
 
