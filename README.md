@@ -238,7 +238,7 @@ The dbt project was successfully built and tested in BigQuery. The build validat
 
 - Advanced SQL and dimensional modelling
 - dbt transformations, documentation, tests, and lineage
-- Marketing funnel, attribution, CAC, retention, and LTV analysis
+- Marketing funnel, attribution, CAC, retained CAC, retention, and realized-revenue analysis
 - Product activation and customer-health analytics
 - Experiment design and quantified recommendations
 - Executive communication that separates evidence, assumptions, and decisions
