@@ -136,7 +136,7 @@ flowchart LR
 
 ```text
 .
-├── assets/                      # Portfolio images and dashboard wireframe
+├── assets/                      # Dashboard screenshots and validation images
 ├── data/
 │   ├── raw/                     # Reproducible synthetic source tables
 │   ├── sample/                  # Small samples for quick inspection
@@ -146,8 +146,7 @@ flowchart LR
 │   ├── models/intermediate/     # Activation, attribution, revenue, retention
 │   └── models/marts/            # Decision-ready marketing/product/customer tables
 ├── docs/
-│   ├── executive_brief.md
-│   ├── dashboard_build_guide.md
+│   ├── dashboard_specification.md
 │   ├── measurement_plan.md
 │   ├── onboarding_experiment.md
 │   └── opportunity_scenario.md
@@ -155,7 +154,7 @@ flowchart LR
 │   ├── generate_synthetic_data.py
 │   └── load_csv_to_bigquery.py
 ├── sql/
-│   ├── analysis/                # Hiring-manager-friendly business analyses
+│   ├── analysis/                # business analyses
 │   └── quality_checks/          # Reconciliation and QA queries
 └── .github/workflows/           # Automated SQL/dbt checks
 ```
@@ -202,7 +201,7 @@ dbt build
 
 Connect the report to the decision-ready tables in the `analytics_saas_marts` BigQuery dataset.
 
-See [the dashboard build guide](docs/dashboard_build_guide.md) for chart definitions, filters, and metric configuration.
+See [the dashboard build guide] for chart definitions, filters, and metric configuration.
 
 
 
